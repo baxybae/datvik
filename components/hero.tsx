@@ -129,10 +129,10 @@ export default function Hero() {
       <div className="absolute top-1/3 left-1/4 w-[400px] h-[400px] bg-purple-600/[0.08] rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute top-1/3 right-1/4 w-[300px] h-[300px] bg-cyan-600/[0.08] rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 lg:py-28 w-full">
+        <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           {/* Left: Text content */}
-          <div className="flex-1 text-center lg:text-left max-w-2xl">
+          <div className="flex-1 text-center lg:text-left w-full max-w-full lg:max-w-2xl">
             {/* Badge */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -151,7 +151,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-[1.05] tracking-tight text-white mb-4"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-white mb-4"
             >
               <span className="block">Build AI Agents That</span>
               <span className="block">
@@ -164,7 +164,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-lg sm:text-xl text-slate-400 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0"
+              className="text-base sm:text-lg md:text-xl text-slate-400 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0"
             >
               DatvikAI abstracts the technical complexity so you can focus on what
               matters — solving business problems with AI. Write TypeScript tools,
@@ -180,7 +180,7 @@ export default function Hero() {
             >
               <Link
                 href="/signup"
-                className="group flex items-center justify-center gap-2 px-7 py-3.5 text-base font-semibold text-white bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl hover:from-indigo-500 hover:to-purple-500 transition-all shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5"
+                className="group flex items-center justify-center gap-2 px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-white bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl hover:from-indigo-500 hover:to-purple-500 transition-all shadow-xl shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5"
               >
                 <Zap size={16} />
                 Start Building Free
@@ -188,7 +188,7 @@ export default function Hero() {
               </Link>
               <a
                 href="/#demo"
-                className="flex items-center justify-center gap-2 px-7 py-3.5 text-base font-semibold text-slate-300 hover:text-white border border-white/10 hover:border-white/20 rounded-xl hover:bg-white/5 transition-all"
+                className="flex items-center justify-center gap-2 px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-slate-300 hover:text-white border border-white/10 hover:border-white/20 rounded-xl hover:bg-white/5 transition-all"
               >
                 View Demo
               </a>
@@ -199,7 +199,7 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="flex items-center gap-6 mt-10 justify-center lg:justify-start"
+              className="flex flex-wrap items-center gap-4 sm:gap-6 mt-10 justify-center lg:justify-start"
             >
               <div className="flex -space-x-2">
                 {[
@@ -228,7 +228,7 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.6 }}
-              className="flex items-center gap-4 mt-6 justify-center lg:justify-start"
+              className="flex flex-wrap items-center gap-3 sm:gap-4 mt-6 justify-center lg:justify-start"
             >
               <span className="text-xs text-slate-500">Deploy to:</span>
               {deployTargets.map((target) => (
@@ -253,7 +253,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="flex-1 w-full max-w-xl lg:max-w-none"
+            className="flex-1 w-full max-w-xl lg:max-w-none hidden md:block"
           >
             <div className="relative">
               {/* Glow behind code block */}
@@ -350,7 +350,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
         <span className="text-xs text-slate-600">Scroll to explore</span>
         <motion.div
