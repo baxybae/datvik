@@ -151,7 +151,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-[1.05] tracking-tight text-white mb-4"
+              className="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-[1.05] tracking-tight text-white mb-4"
             >
               <span className="block">Build AI Agents That</span>
               <span className="block">
@@ -274,8 +274,8 @@ export default function Hero() {
                 </div>
 
                 {/* Code content */}
-                <div className="p-5 overflow-x-auto">
-                  <pre className="text-sm leading-7">
+                <div className="p-3 sm:p-5 overflow-x-auto">
+                  <pre className="text-[11px] sm:text-sm leading-6 sm:leading-7">
                     {codeLines.map((line, lineIdx) => (
                       <div key={lineIdx} className="flex">
                         <span className="select-none text-slate-600 w-6 text-right mr-4 text-xs leading-7 shrink-0">
@@ -322,7 +322,7 @@ export default function Hero() {
               <motion.div
                 animate={{ y: [0, -6, 0] }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -top-4 -right-4 bg-[#0f0f1a] border border-white/10 rounded-xl px-3 py-2 shadow-xl"
+                className="absolute -top-4 -right-4 bg-[#0f0f1a] border border-white/10 rounded-xl px-3 py-2 shadow-xl hidden sm:block"
               >
                 <div className="flex items-center gap-2 text-xs">
                   <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
@@ -333,7 +333,7 @@ export default function Hero() {
               <motion.div
                 animate={{ y: [0, 6, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                className="absolute -bottom-4 -left-4 bg-[#0f0f1a] border border-white/10 rounded-xl px-3 py-2 shadow-xl"
+                className="absolute -bottom-4 -left-4 bg-[#0f0f1a] border border-white/10 rounded-xl px-3 py-2 shadow-xl hidden sm:block"
               >
                 <div className="flex items-center gap-2 text-xs">
                   <Zap size={12} className="text-indigo-400" />

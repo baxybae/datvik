@@ -59,7 +59,7 @@ export default function Footer() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="py-14 grid grid-cols-2 md:grid-cols-5 gap-8">
+        <div className="py-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
           {/* Brand column */}
           <div className="col-span-2">
             <Link href="/" className="flex items-center mb-5 group">

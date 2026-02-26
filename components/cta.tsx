@@ -25,7 +25,7 @@ export default function CTA() {
           <span className="badge mb-6">Get Started Today</span>
 
           {/* Headline */}
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
             Build your first agent{" "}
             <span className="gradient-text">in 5 minutes</span>
           </h2>
@@ -60,7 +60,7 @@ export default function CTA() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="inline-flex items-center gap-3 bg-[#0d0d1a] border border-white/10 rounded-xl px-5 py-3 font-mono text-sm"
+            className="inline-flex items-center gap-3 bg-[#0d0d1a] border border-white/10 rounded-xl px-4 sm:px-5 py-3 font-mono text-xs sm:text-sm"
           >
             <span className="text-green-400">$</span>
             <span className="text-slate-300">npm install -g datvik-cli</span>

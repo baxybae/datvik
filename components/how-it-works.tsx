@@ -61,7 +61,7 @@ export default function HowItWorks() {
           className="text-center mb-16 lg:mb-20"
         >
           <span className="badge mb-4">How It Works</span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 tracking-tight">
             From zero to{" "}
             <span className="gradient-text">deployed agent</span>
             <br />in 5 minutes

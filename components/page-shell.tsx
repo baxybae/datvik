@@ -45,7 +45,7 @@ export default function PageShell({ badge, title, subtitle, children, narrow }: 
             className="mb-12"
           >
             {badge && <span className="badge mb-4">{badge}</span>}
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
               {title}
             </h1>
             {subtitle && (

@@ -184,7 +184,7 @@ export default function Features() {
           className="text-center mb-16 lg:mb-20"
         >
           <span className="badge mb-4">Features</span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 tracking-tight">
             Everything you need to{" "}
             <span className="gradient-text">ship AI agents</span>
           </h2>
@@ -214,7 +214,7 @@ export default function Features() {
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
                 <p className="text-sm text-slate-400 leading-relaxed mb-4">{feature.description}</p>
-                <div className="code-block rounded-xl p-4 text-xs font-mono text-slate-300 overflow-x-auto">
+                <div className="code-block rounded-xl p-3 sm:p-4 text-[11px] sm:text-xs font-mono text-slate-300 overflow-x-auto">
                   <pre className="whitespace-pre">{feature.code}</pre>
                 </div>
               </motion.div>

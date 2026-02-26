@@ -84,7 +84,7 @@ export default function Testimonials() {
           className="text-center mb-14"
         >
           <span className="badge mb-4">Testimonials</span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 tracking-tight">
             Loved by{" "}
             <span className="gradient-text">developers</span>
           </h2>

@@ -81,7 +81,7 @@ export default function Pricing() {
           className="text-center mb-12"
         >
           <span className="badge mb-4">Pricing</span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 tracking-tight">
             Simple,{" "}
             <span className="gradient-text">transparent pricing</span>
           </h2>

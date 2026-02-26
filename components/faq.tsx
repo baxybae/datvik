@@ -64,7 +64,7 @@ export default function FAQ() {
           className="text-center mb-12"
         >
           <span className="badge mb-4">FAQ</span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 tracking-tight">
             Frequently asked{" "}
             <span className="gradient-text">questions</span>
           </h2>

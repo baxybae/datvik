@@ -73,7 +73,7 @@ export default function Integrations() {
           className="text-center mb-16"
         >
           <span className="badge mb-4">Integrations</span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 tracking-tight">
             Integrate with{" "}
             <span className="gradient-text">any API</span>
           </h2>
@@ -119,8 +119,8 @@ export default function Integrations() {
                 </div>
 
                 {/* Code */}
-                <div className="code-block rounded-xl p-4 text-xs font-mono text-slate-300 overflow-x-auto">
-                  <pre className="whitespace-pre text-[11px] leading-6">{cat.code}</pre>
+                <div className="code-block rounded-xl p-3 sm:p-4 text-[10px] sm:text-xs font-mono text-slate-300 overflow-x-auto">
+                  <pre className="whitespace-pre text-[10px] sm:text-[11px] leading-5 sm:leading-6">{cat.code}</pre>
                 </div>
               </motion.div>
             );

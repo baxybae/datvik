@@ -84,7 +84,7 @@ export default function Contact() {
             className="text-center mb-14"
           >
             <span className="badge mb-4">Contact</span>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
               Get in <span className="gradient-text">touch</span>
             </h1>
             <p className="text-lg text-slate-400 max-w-xl mx-auto leading-relaxed">

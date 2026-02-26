@@ -46,7 +46,7 @@ const tabContent = {
     title: "Embeddable Chat Widget",
     description: "Add AI chat to any website with one script tag. Fully customizable to match your brand.",
     preview: (
-      <div className="relative bg-[#0d0d1a] rounded-xl border border-white/5 overflow-hidden" style={{ minHeight: 320 }}>
+      <div className="relative bg-[#0d0d1a] rounded-xl border border-white/5 overflow-hidden" style={{ minHeight: 280 }}>
         {/* Fake website background */}
         <div className="p-6">
           <div className="h-4 bg-white/5 rounded w-1/3 mb-3" />
@@ -59,7 +59,7 @@ const tabContent = {
           </div>
         </div>
         {/* Chat widget */}
-        <div className="absolute bottom-4 right-4 w-64">
+        <div className="absolute bottom-4 right-4 w-56 sm:w-64">
           <div className="bg-[#0f0f1a] border border-white/10 rounded-2xl shadow-2xl overflow-hidden">
             <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 py-3 flex items-center gap-2">
               <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center">
@@ -94,7 +94,7 @@ const tabContent = {
     title: "WhatsApp Integration",
     description: "Deploy your agent to WhatsApp Business. Your customers chat naturally, your agent takes real actions.",
     preview: (
-      <div className="bg-[#0d1117] rounded-xl border border-white/5 overflow-hidden" style={{ minHeight: 320 }}>
+      <div className="bg-[#0d1117] rounded-xl border border-white/5 overflow-hidden" style={{ minHeight: 280 }}>
         <div className="bg-[#1a2a1a] px-4 py-3 flex items-center gap-3 border-b border-white/5">
           <div className="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center">
             <span className="text-xs font-bold text-white">D</span>
@@ -190,7 +190,7 @@ export default function Demo() {
           className="text-center mb-12"
         >
           <span className="badge mb-4">Live Demo</span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 tracking-tight">
             See DatvikAI{" "}
             <span className="gradient-text">in action</span>
           </h2>

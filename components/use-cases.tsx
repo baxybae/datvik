@@ -84,7 +84,7 @@ export default function UseCases() {
           className="text-center mb-14"
         >
           <span className="badge mb-4">Use Cases</span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-5 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 tracking-tight">
             Built for{" "}
             <span className="gradient-text">every industry</span>
           </h2>
