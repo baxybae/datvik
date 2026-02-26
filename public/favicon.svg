@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="white" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#6366f1" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Shine overlay -->
+  <rect width="512" height="512" rx="112" fill="url(#shine)"/>
+  <!-- D letter - custom geometric design -->
+  <g filter="url(#shadow)">
+    <!-- Main D shape -->
+    <path d="M152 120 L152 392 L280 392 C356 392 400 340 400 256 C400 172 356 120 280 120 Z" 
+          fill="none" stroke="white" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Inner accent line -->
+    <path d="M192 200 L260 200 C308 200 340 224 340 256 C340 288 308 312 260 312 L192 312" 
+          fill="none" stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+    <!-- AI dot accent -->
+    <circle cx="380" cy="140" r="20" fill="#22d3ee"/>
+    <circle cx="380" cy="140" r="10" fill="white" opacity="0.8"/>
+  </g>
+</svg>
